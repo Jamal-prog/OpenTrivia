@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <style>
+        body {
+          background-color: lightblue;
+          text-align: center;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+       
+        </style>
+   <body> 
+   {% if answer != "wrong" %}
+   <h1>Winner!!</h1>
+   <img src="https://image.shutterstock.com/shutterstock/photos/1367983544/display_1500/stock-vector-winner-banner-win-congratulations-vintage-frame-golden-congratulating-framed-sign-with-gold-1367983544.jpg" alt="" >
+   {% else %}
+   <h1>You Failed </h1>
+   <img src="https://st.depositphotos.com/3489481/5126/i/950/depositphotos_51263235-stock-photo-angry-boy-displaying-loser-sign.jpg">
+   {% endif %}
+
+   </body>
+</html>
